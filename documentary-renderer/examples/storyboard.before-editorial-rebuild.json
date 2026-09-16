@@ -1,0 +1,943 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "voice": "project/narration.mp3",
+  "music": "assets/music/background.mp3",
+  "music_volume": 0.06,
+  "voice_volume": 1.15,
+  "duck_amount": 0.18,
+  "duck_fade_duration": 0.5,
+  "output": "output/documentary.mp4",
+  "scenes": [
+    {
+      "type": "image",
+      "file": "project/images/SCENE_1.jpeg",
+      "duration": 5.107,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "video",
+      "file": "project/videos/SCENE_2.mp4",
+      "start_time": 0,
+      "end_time": 4.2,
+      "transition": "hard_cut",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "video",
+      "file": "project/videos/SCENE_3.mp4",
+      "start_time": 0,
+      "end_time": 6.401,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_4.jpeg",
+      "duration": 7.609,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_5.jpeg",
+      "duration": 5.862,
+      "motion": "zoom_up",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_6.jpeg",
+      "duration": 5.0,
+      "motion": "zoom_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_7.jpeg",
+      "duration": 11.146,
+      "motion": "zoom_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_8.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_9.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_10.jpeg",
+      "duration": 7.156,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_11.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_12.jpeg",
+      "duration": 5.107,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_13.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_up",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_14.jpeg",
+      "duration": 5.862,
+      "motion": "zoom_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_15.jpeg",
+      "duration": 8.882,
+      "motion": "zoom_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_16.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_17.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_18.jpeg",
+      "duration": 4.482,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_19.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_20.jpeg",
+      "duration": 4.2,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_21.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_up",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_22.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_23.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_24.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_25.jpeg",
+      "duration": 4.245,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_26.jpeg",
+      "duration": 4.2,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_27.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_28.jpeg",
+      "duration": 4.2,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_29.jpeg",
+      "duration": 6.294,
+      "motion": "zoom_up",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_30.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_down",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_31.jpeg",
+      "duration": 7.501,
+      "motion": "zoom_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_32.jpeg",
+      "duration": 4.568,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "video",
+      "file": "project/videos/SCENE_33.mp4",
+      "start_time": 0,
+      "end_time": 4.2,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_34.jpeg",
+      "duration": 5.431,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_35.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_36.jpeg",
+      "duration": 4.568,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_37.jpeg",
+      "duration": 4.913,
+      "motion": "zoom_up",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_38.jpeg",
+      "duration": 9.874,
+      "motion": "zoom_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_39.jpeg",
+      "duration": 5.043,
+      "motion": "zoom_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_40.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_41.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_42.jpeg",
+      "duration": 7.695,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_43.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "video",
+      "file": "project/videos/SCENE_44.mp4",
+      "start_time": 0,
+      "end_time": 5.539,
+      "transition": "hard_cut",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_45.jpeg",
+      "duration": 7.803,
+      "motion": "zoom_up",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_46.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_47.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_left",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_48.jpeg",
+      "duration": 7.264,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_49.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_50.jpeg",
+      "duration": 5.776,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_51.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_52.jpeg",
+      "duration": 6.401,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_53.jpeg",
+      "duration": 6.401,
+      "motion": "zoom_up",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_54.jpeg",
+      "duration": 6.294,
+      "motion": "zoom_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_55.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_56.jpeg",
+      "duration": 5.431,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_57.jpeg",
+      "duration": 6.833,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_58.jpeg",
+      "duration": 6.725,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_59.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_60.jpeg",
+      "duration": 7.048,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_61.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_up",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_62.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_63.jpeg",
+      "duration": 5.0,
+      "motion": "zoom_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_64.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_65.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_66.jpeg",
+      "duration": 4.2,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "video",
+      "file": "project/videos/SCENE_67.mp4",
+      "start_time": 0,
+      "end_time": 5.431,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_68.jpeg",
+      "duration": 4.245,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_69.jpeg",
+      "duration": 4.568,
+      "motion": "zoom_up",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_70.jpeg",
+      "duration": 4.913,
+      "motion": "zoom_down",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_71.jpeg",
+      "duration": 5.539,
+      "motion": "zoom_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_72.jpeg",
+      "duration": 5.431,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_73.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_74.jpeg",
+      "duration": 4.2,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_75.jpeg",
+      "duration": 5.431,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_76.jpeg",
+      "duration": 4.2,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_77.jpeg",
+      "duration": 4.676,
+      "motion": "zoom_up",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_78.jpeg",
+      "duration": 5.0,
+      "motion": "zoom_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_79.jpeg",
+      "duration": 4.568,
+      "motion": "zoom_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_80.jpeg",
+      "duration": 7.501,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_81.jpeg",
+      "duration": 5.754,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_82.jpeg",
+      "duration": 4.2,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_83.jpeg",
+      "duration": 4.568,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_84.jpeg",
+      "duration": 4.2,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_85.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_up",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_86.jpeg",
+      "duration": 5.776,
+      "motion": "zoom_down",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_87.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_88.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_89.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_90.jpeg",
+      "duration": 4.2,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "video",
+      "file": "project/videos/SCENE_91.mp4",
+      "start_time": 0,
+      "end_time": 4.2,
+      "transition": "hard_cut",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_92.jpeg",
+      "duration": 5.862,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_93.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_up",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_94.jpeg",
+      "duration": 8.127,
+      "motion": "zoom_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_95.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_96.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_97.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "video",
+      "file": "project/videos/SCENE_98.mp4",
+      "start_time": 0,
+      "end_time": 4.913,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_99.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_100.jpeg",
+      "duration": 4.2,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_101.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_up",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_102.jpeg",
+      "duration": 6.833,
+      "motion": "zoom_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_103.jpeg",
+      "duration": 4.2,
+      "motion": "zoom_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_104.jpeg",
+      "duration": 4.203,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "dip_to_black",
+      "transition_duration": 0.5
+    }
+  ]
+}

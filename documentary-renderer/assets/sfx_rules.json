@@ -1,0 +1,27 @@
+{
+  "EVIDENCE": {
+    "choices": ["camera_shutter", "paper_rustle"],
+    "probability": 0.35,
+    "volume": 0.18
+  },
+  "DOCUMENT": {
+    "choices": ["page_turn", "paper_rustle"],
+    "probability": 0.35,
+    "volume": 0.14
+  },
+  "CONTRADICTION": {
+    "choices": ["deep_hit"],
+    "probability": 0.55,
+    "volume": 0.22
+  },
+  "REVEAL": {
+    "choices": ["dark_impact"],
+    "probability": 0.75,
+    "volume": 0.24
+  },
+  "TECH": {
+    "choices": ["glitch_hit"],
+    "probability": 0.3,
+    "volume": 0.14
+  }
+}

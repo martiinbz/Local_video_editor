@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+.cache/
+*.pyc
+editor/frontend/node_modules/
+editor/frontend/dist/
+project/manifest.editor.json
+projects/
+PROMPTS/
+output/
+.superpowers/
+docs/

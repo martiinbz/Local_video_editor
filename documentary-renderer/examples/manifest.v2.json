@@ -1,0 +1,103 @@
+{
+  "project": {
+    "title": "Expedientes en Tinta V2 - Ejemplo",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "voice": "project/narration.mp3",
+    "transcript": "project/transcript.srt",
+    "output": "output/documentary-v2.mp4",
+    "accent_color": "#A33A2A",
+    "voice_volume": 1.0,
+    "duck_amount": 0.35,
+    "duck_fade_duration": 0.5
+  },
+  "assets": [
+    {
+      "asset_id": "ASSET_001",
+      "type": "image",
+      "generation_source": "flow",
+      "file": "project/images/ASSET_001.jpeg",
+      "visual_level": "CINEMATIC",
+      "focal_points": {
+        "telephone": [0.67, 0.42],
+        "door": [0.52, 0.31]
+      }
+    },
+    {
+      "asset_id": "ASSET_TIMELINE_001",
+      "type": "image",
+      "generation_source": "renderer",
+      "visual_level": "GRAPHIC",
+      "overlay": {
+        "type": "TIMELINE",
+        "data": {
+          "title": "Últimas horas",
+          "events": [
+            { "time": "22:17", "label": "Sale del hotel" },
+            { "time": "22:48", "label": "Última llamada" },
+            { "time": "23:06", "label": "Cámara" },
+            { "time": "23:41", "label": "Desaparece" }
+          ]
+        }
+      }
+    }
+  ],
+  "shots": [
+    {
+      "shot_id": "SHOT_001",
+      "asset_id": "ASSET_001",
+      "duration": 3.1,
+      "story_function": "CONTRADICTION",
+      "visual_type": "EVIDENCE",
+      "visual_level": "CINEMATIC",
+      "importance": 8,
+      "crop": "focal",
+      "focal_point": [0.67, 0.42],
+      "motion": "focal_zoom",
+      "transition": "hard_cut"
+    },
+    {
+      "shot_id": "SHOT_002",
+      "asset_id": "ASSET_001",
+      "duration": 2.4,
+      "story_function": "CONTEXT",
+      "visual_type": "LOCATION",
+      "visual_level": "GRAPHIC",
+      "importance": 4,
+      "crop": "wide",
+      "motion": "pan_right",
+      "transition": "fade"
+    },
+    {
+      "shot_id": "SHOT_003",
+      "asset_id": "ASSET_TIMELINE_001",
+      "duration": 4.0,
+      "story_function": "EVIDENCE",
+      "visual_type": "TIMELINE",
+      "visual_level": "GRAPHIC",
+      "importance": 7,
+      "crop": "wide",
+      "motion": "crop_push",
+      "transition": "fade"
+    }
+  ],
+  "music_cues": [
+    {
+      "state": "MYSTERY",
+      "track": "assets/music/mystery_01.mp3",
+      "start": 0.0,
+      "end": 5.5,
+      "volume": 0.12
+    }
+  ],
+  "ambience_cues": [
+    {
+      "name": "room_tone",
+      "file": "assets/ambience/room_tone.mp3",
+      "start": 0.0,
+      "end": 5.5,
+      "volume": 0.04
+    }
+  ]
+}

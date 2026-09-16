@@ -1,0 +1,11 @@
+{
+  "title_font": "assets/fonts/noir_title.ttf",
+  "body_font": "assets/fonts/noir_body.ttf",
+  "mono_font": "assets/fonts/mono_evidence.ttf",
+  "paper_cream": "assets/textures/paper_cream.png",
+  "paper_gray": "assets/textures/paper_gray.png",
+  "ink_grain": "assets/textures/ink_grain.png",
+  "dust_overlay": "assets/textures/dust_overlay.png",
+  "vignette": "assets/textures/vignette.png",
+  "default_accent_color": "#A33A2A"
+}

@@ -1,0 +1,954 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "voice": "project/narration.mp3",
+  "music": "assets/music/background.mp3",
+  "music_volume": 0.06,
+  "voice_volume": 1.15,
+  "duck_amount": 0.18,
+  "duck_fade_duration": 0.5,
+  "output": "output/documentary.mp4",
+  "scenes": [
+    {
+      "type": "image",
+      "file": "project/images/SCENE_1.jpg",
+      "duration": 3.529,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5,
+      "sfx": [
+        {
+          "name": "deep_hit",
+          "file": "assets/sfx/deep_hit.mp3",
+          "at": 0.18,
+          "volume": 0.90
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_2.jpg",
+      "duration": 5.04,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_3.jpg",
+      "duration": 4.251,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_4.jpg",
+      "duration": 5.33,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_5.jpg",
+      "duration": 2.729,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5,
+      "sfx": [
+        {
+          "name": "dark_impact",
+          "file": "assets/sfx/dark_impact.mp3",
+          "at": 1.35,
+          "volume": 0.90
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_6.jpg",
+      "duration": 3.229,
+      "motion": "pan_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_7.jpg",
+      "duration": 4.003,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_8.jpg",
+      "duration": 5.192,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_9.jpg",
+      "duration": 6.269,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5,
+      "sfx": [
+        {
+          "name": "glitch_hit",
+          "file": "assets/sfx/glitch_hit.mp3",
+          "at": 4.55,
+          "volume": 0.90
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_10.jpg",
+      "duration": 3.715,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "dip_to_black",
+      "transition_duration": 0.5,
+      "sfx": [
+        {
+          "name": "cinematic_whoosh",
+          "file": "assets/sfx/cinematic_whoosh.mp3",
+          "at": 0.08,
+          "volume": 0.90
+        }
+      ]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_11.jpg",
+      "duration": 4.526,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_12.jpg",
+      "duration": 5.969,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_13.jpg",
+      "duration": 4.69,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_14.jpg",
+      "duration": 5.238,
+      "motion": "pan_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_15.jpg",
+      "duration": 5.101,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_16.jpg",
+      "duration": 3.129,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_17.jpg",
+      "duration": 2.694,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_18.jpg",
+      "duration": 5.377,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "tension_rise", "file": "assets/sfx/tension_rise.mp3", "at": 2.55, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_19.jpg",
+      "duration": 2.007,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_20.jpg",
+      "duration": 5.253,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "dip_to_black",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_21.jpg",
+      "duration": 6.821,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_22.jpg",
+      "duration": 4.226,
+      "motion": "pan_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "deep_hit", "file": "assets/sfx/deep_hit.mp3", "at": 2.18, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_23.jpg",
+      "duration": 2.647,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_24.jpg",
+      "duration": 5.402,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_25.jpg",
+      "duration": 2.493,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_26.jpg",
+      "duration": 3.483,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_27.jpg",
+      "duration": 5.108,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_28.jpg",
+      "duration": 2.229,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "deep_hit", "file": "assets/sfx/deep_hit.mp3", "at": 0.92, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_29.jpg",
+      "duration": 5.448,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "dip_to_black",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_30.jpg",
+      "duration": 5.519,
+      "motion": "pan_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_31.jpg",
+      "duration": 5.66,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_32.jpg",
+      "duration": 5.236,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_33.jpg",
+      "duration": 3.679,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "glitch_hit", "file": "assets/sfx/glitch_hit.mp3", "at": 2.45, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_34.jpg",
+      "duration": 4.923,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_35.jpg",
+      "duration": 6.594,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "deep_hit", "file": "assets/sfx/deep_hit.mp3", "at": 4.58, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_36.jpg",
+      "duration": 2.555,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "dark_impact", "file": "assets/sfx/dark_impact.mp3", "at": 0.16, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_37.jpg",
+      "duration": 3.855,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_38.jpg",
+      "duration": 5.454,
+      "motion": "pan_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_39.jpg",
+      "duration": 5.679,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "glitch_hit", "file": "assets/sfx/glitch_hit.mp3", "at": 2.75, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_40.jpg",
+      "duration": 5.678,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_41.jpg",
+      "duration": 1.904,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "deep_hit", "file": "assets/sfx/deep_hit.mp3", "at": 0.58, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_42.jpg",
+      "duration": 3.994,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "dark_impact", "file": "assets/sfx/dark_impact.mp3", "at": 2.18, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_43.jpg",
+      "duration": 4.644,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_44.jpg",
+      "duration": 5.3,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "glitch_hit", "file": "assets/sfx/glitch_hit.mp3", "at": 2.20, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_45.jpg",
+      "duration": 1.62,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_46.jpg",
+      "duration": 5.038,
+      "motion": "pan_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_47.jpg",
+      "duration": 1.974,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_48.jpg",
+      "duration": 4.901,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "dip_to_black",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "cinematic_whoosh", "file": "assets/sfx/cinematic_whoosh.mp3", "at": 0.08, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_49.jpg",
+      "duration": 1.508,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_50.jpg",
+      "duration": 5.286,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "deep_hit", "file": "assets/sfx/deep_hit.mp3", "at": 0.20, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_51.jpg",
+      "duration": 5.583,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_52.jpg",
+      "duration": 3.946,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_53.jpg",
+      "duration": 2.468,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_54.jpg",
+      "duration": 3.855,
+      "motion": "pan_down",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "dark_impact", "file": "assets/sfx/dark_impact.mp3", "at": 1.48, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_55.jpg",
+      "duration": 5.619,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_56.jpg",
+      "duration": 4.737,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_57.jpg",
+      "duration": 4.903,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_58.jpg",
+      "duration": 4.78,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_59.jpg",
+      "duration": 5.271,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "dark_impact", "file": "assets/sfx/dark_impact.mp3", "at": 2.60, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_60.jpg",
+      "duration": 5.002,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_61.jpg",
+      "duration": 1.732,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_62.jpg",
+      "duration": 4.505,
+      "motion": "pan_down",
+      "motion_speed": 1.0,
+      "transition": "dip_to_black",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "cinematic_whoosh", "file": "assets/sfx/cinematic_whoosh.mp3", "at": 0.08, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_63.jpg",
+      "duration": 4.69,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "camera_shutter", "file": "assets/sfx/camera_shutter.mp3", "at": 0.40, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_64.jpg",
+      "duration": 4.18,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_65.jpg",
+      "duration": 3.158,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "camera_shutter", "file": "assets/sfx/camera_shutter.mp3", "at": 1.72, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_66.jpg",
+      "duration": 6.316,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "deep_hit", "file": "assets/sfx/deep_hit.mp3", "at": 3.42, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_67.jpg",
+      "duration": 3.251,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_68.jpg",
+      "duration": 8.22,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_69.jpg",
+      "duration": 4.747,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "camera_shutter", "file": "assets/sfx/camera_shutter.mp3", "at": 0.62, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_70.jpg",
+      "duration": 5.934,
+      "motion": "pan_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "dark_impact", "file": "assets/sfx/dark_impact.mp3", "at": 2.85, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_71.jpg",
+      "duration": 2.694,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "dip_to_black",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_72.jpg",
+      "duration": 4.267,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_73.jpg",
+      "duration": 2.513,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_74.jpg",
+      "duration": 5.079,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "glitch_hit", "file": "assets/sfx/glitch_hit.mp3", "at": 0.82, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_75.jpg",
+      "duration": 4.673,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_76.jpg",
+      "duration": 2.926,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "deep_hit", "file": "assets/sfx/deep_hit.mp3", "at": 1.28, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_77.jpg",
+      "duration": 4.83,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_78.jpg",
+      "duration": 6.13,
+      "motion": "pan_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_79.jpg",
+      "duration": 4.551,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_80.jpg",
+      "duration": 4.625,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_81.jpg",
+      "duration": 5.277,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_82.jpg",
+      "duration": 4.169,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_83.jpg",
+      "duration": 5.211,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "dip_to_black",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "cinematic_whoosh", "file": "assets/sfx/cinematic_whoosh.mp3", "at": 0.08, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_84.jpg",
+      "duration": 4.495,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_85.jpg",
+      "duration": 2.368,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_86.jpg",
+      "duration": 3.344,
+      "motion": "pan_down",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_87.jpg",
+      "duration": 5.356,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_88.jpg",
+      "duration": 5.836,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "dark_impact", "file": "assets/sfx/dark_impact.mp3", "at": 2.88, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_89.jpg",
+      "duration": 6.558,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_90.jpg",
+      "duration": 6.306,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_91.jpg",
+      "duration": 5.991,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_92.jpg",
+      "duration": 6.92,
+      "motion": "pan_right",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_93.jpg",
+      "duration": 4.644,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_94.jpg",
+      "duration": 4.893,
+      "motion": "pan_down",
+      "motion_speed": 1.0,
+      "transition": "dip_to_black",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_95.jpg",
+      "duration": 1.609,
+      "motion": "zoom_out",
+      "motion_speed": 1.0,
+      "transition": "crossfade",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_96.jpg",
+      "duration": 7.616,
+      "motion": "zoom_right",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "tension_rise", "file": "assets/sfx/tension_rise.mp3", "at": 1.95, "volume": 0.90}]
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_97.jpg",
+      "duration": 2.415,
+      "motion": "zoom_in",
+      "motion_speed": 1.0,
+      "transition": "dip_to_black",
+      "transition_duration": 0.5
+    },
+    {
+      "type": "image",
+      "file": "project/images/SCENE_98.jpg",
+      "duration": 3.678,
+      "motion": "pan_left",
+      "motion_speed": 1.0,
+      "transition": "hard_cut",
+      "transition_duration": 0.5,
+      "sfx": [{"name": "cinematic_impact", "file": "assets/sfx/cinematic_impact.mp3", "at": 2.42, "volume": 0.90}]
+    }
+  ]
+}

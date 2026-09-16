@@ -1,0 +1,9 @@
+{
+  "MYSTERY": ["assets/music/mystery_01.mp3", "assets/music/mystery_02.mp3"],
+  "INVESTIGATION": ["assets/music/investigation_01.mp3", "assets/music/investigation_02.mp3"],
+  "TENSION": ["assets/music/tension_01.mp3", "assets/music/tension_02.mp3"],
+  "EMOTIONAL": ["assets/music/emotional_01.mp3"],
+  "REVELATION": ["assets/music/revelation_01.mp3"],
+  "NEUTRAL_DARK": ["assets/music/dark_neutral_01.mp3"],
+  "SILENCE": []
+}
